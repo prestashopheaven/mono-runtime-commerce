@@ -2,6 +2,11 @@
 
 All packages of this monorepo share one version. Per package details: its own `CHANGELOG.md`.
 
+## 1.0.1
+
+- `runtime-voucher` 1.0.1: a voucher starts a day before it is issued, so a difference between the time zone of the
+  database and the shop never makes a fresh voucher "not valid yet" (found in heavencartjourney 1.4.0).
+
 ## 1.0.0
 
 - `runtime-voucher` 1.0.0: `VoucherSpec` (percentage or amount, prefix, hours, customer, shop, products, names,

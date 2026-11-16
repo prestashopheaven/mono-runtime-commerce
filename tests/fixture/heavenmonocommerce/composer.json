@@ -10,17 +10,17 @@
             "options": {
                 "symlink": false,
                 "versions": {
-                    "prestashopheaven/runtime-voucher": "1.0.0",
-                    "prestashopheaven/runtime-cart": "1.0.0"
+                    "prestashopheaven/runtime-cart": "1.0.1",
+                    "prestashopheaven/runtime-voucher": "1.0.1"
                 }
             }
         }
     ],
     "require": {
         "php": ">=8.1",
-        "prestashopheaven/runtime-cart": "1.0.0",
+        "prestashopheaven/runtime-cart": "1.0.1",
         "prestashopheaven/runtime-kit": "^1.0",
-        "prestashopheaven/runtime-voucher": "1.0.0"
+        "prestashopheaven/runtime-voucher": "1.0.1"
     },
     "require-dev": {
         "prestashopheaven/build-tools": "^1.0"

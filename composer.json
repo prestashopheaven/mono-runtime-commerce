@@ -1,7 +1,7 @@
 {
     "name": "prestashopheaven/mono-runtime-commerce",
     "description": "Commerce building blocks of PrestaHaven modules: personal one-time vouchers and cart recovery links, and later orders, products and customers.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "project",
     "license": "MIT",
     "repositories": [
@@ -11,8 +11,8 @@
             "options": {
                 "symlink": true,
                 "versions": {
-                    "prestashopheaven/runtime-cart": "1.0.0",
-                    "prestashopheaven/runtime-voucher": "1.0.0"
+                    "prestashopheaven/runtime-cart": "1.0.1",
+                    "prestashopheaven/runtime-voucher": "1.0.1"
                 }
             }
         }
