@@ -1,0 +1,11 @@
+/vendor/
+/.cache/
+/composer.lock
+/packages/*/vendor/
+/packages/*/composer.lock
+/tests/fixture/*/vendor/
+/tests/fixture/*/composer.lock
+/node_modules/
+/tests/fixture/*/tests/Packages/
+/tests/fixture/*/.cache/
+/tests/fixture/dist/

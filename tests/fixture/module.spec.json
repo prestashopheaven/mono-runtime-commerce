@@ -1,0 +1,7 @@
+{
+    "module_name": "heavenmonocommerce",
+    "display_name": "Commerce packages fixture",
+    "version": "1.0.0",
+    "distribution": "addons",
+    "fixture": "Test module of mono-runtime-commerce (docs/packages): runs the integration tests of the commerce packages in real shops. Never released."
+}

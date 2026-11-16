@@ -1,0 +1,53 @@
+{
+    "name": "prestashopheaven/mono-runtime-commerce",
+    "description": "Commerce building blocks of PrestaHaven modules: personal one-time vouchers and cart recovery links, and later orders, products and customers.",
+    "version": "1.0.0",
+    "type": "project",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/*",
+            "options": {
+                "symlink": true,
+                "versions": {
+                    "prestashopheaven/runtime-cart": "1.0.0",
+                    "prestashopheaven/runtime-voucher": "1.0.0"
+                }
+            }
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "prestashopheaven/runtime-cart": "*",
+        "prestashopheaven/runtime-voucher": "*"
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.2",
+        "phpcompatibility/php-compatibility": "^10.0@alpha",
+        "phpunit/phpunit": "^10.5",
+        "prestashopheaven/build-tools": "^1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "platform": {
+            "php": "8.1.0"
+        },
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "extra": {
+        "prestashopheaven": {
+            "monorepo": {
+                "kind": "runtime",
+                "category": "commerce"
+            }
+        }
+    },
+    "scripts": {
+        "check": "ps-module mono check"
+    }
+}
